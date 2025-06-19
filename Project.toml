@@ -1,0 +1,12 @@
+name = "rgbl"
+uuid = "01e9bd15-0424-4df7-ae05-fd423bc491ec"
+authors = ["Marcel <green@greenthepear.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+
+[compat]
+FileIO = "1.17.0"
+ImageIO = "0.6.9"
