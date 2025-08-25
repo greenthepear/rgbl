@@ -26,6 +26,8 @@ instructions = Dict(
     194 => Instruction("le", (m, v) -> v, (m, v) -> Int(m <= v)),
     195 => Instruction("gt", (m, v) -> v, (m, v) -> Int(m > v)),
     196 => Instruction("ge", (m, v) -> v, (m, v) -> Int(m >= v)),
+
+    255 => Instruction("cross", (m, v) -> m, (m, v) -> m)
 )
 
 category_ranges_numbers = Dict(map(
